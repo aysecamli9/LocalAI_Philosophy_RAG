@@ -1,4 +1,4 @@
-````markdown
+
 # Philosophy RAG
 
 A local Retrieval-Augmented Generation (RAG) system for answering
@@ -22,7 +22,7 @@ in those passages.
 - Hallucination / out-of-scope question handling
 - Local LLM inference
 - Performance evaluation
-- 14-question evaluation set
+- 15-question evaluation set
 - Streamlit-based user interface
 
 ---
@@ -167,7 +167,7 @@ evaluation set.
 
 ## Evaluation
 
-The system was evaluated using a set of **14 test questions** covering:
+The system was evaluated using a set of **15 test questions** covering:
 
 * Single-philosopher questions
 * Comparative questions
@@ -378,14 +378,6 @@ streamlit run app.py
 
 The Streamlit application will then open in a web browser.
 
-### Required Models
-
-| Purpose             | Model                  |
-| ------------------- | ---------------------- |
-| Language Generation | `phi-4-mini`           |
-| Embeddings          | `qwen3-embedding-0.6b` |
-
-
 ---
 
 ## Document Processing Pipeline
@@ -415,16 +407,6 @@ The resulting database is then used by the retrieval component.
 
 ---
 
-## Project Status
-
-The core RAG pipeline, document processing, semantic retrieval,
-local generation, source attribution, evaluation pipeline,
-performance measurement, and Streamlit user interface are complete.
-
-The remaining presentation component is the final project demonstration.
-
----
-
 ## Demo
 
 A short demonstration video of the Philosophy RAG system is added
@@ -436,12 +418,8 @@ here.
 
 ## Author
 
-**Ayşe Camlı**
+**Ayşe Çamlı**
 ayse.camli@sabanciuniv.edu
 Sabancı University — Computer Engineering Student
 
-```
-
-
-Bir de taslaktaki eski **"User interface planned"** ve **"Future Improvements → User interface"** kısımlarını güncelledim; çünkü UI artık hazır. :contentReference[oaicite:0]{index=0}
 ```
